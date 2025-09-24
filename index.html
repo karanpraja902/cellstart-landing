@@ -1,0 +1,2081 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CellStart ChronoNAD+ - Advanced cellular energy supplement for enhanced vitality and longevity">
+    <meta name="keywords" content="NAD+, cellular energy, supplement, longevity, vitality, anti-aging">
+    <meta name="author" content="CellStart">
+    <title>CellStart - ChronoNAD+ Cellular Energy Supplement</title>
+    
+    <style>
+        
+        
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-weight: 400;
+            line-height: 1.6;
+            color: #0057a6;
+            background-color: #ffffff;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-weight: 600;
+            color: #002f5c;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+        }
+
+        .marketing-header {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-weight: 600;
+            color: #002f5c;
+        }
+
+        p, li, span {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-weight: 400;
+            color: #0057a6;
+            line-height: 1.7;
+        }
+
+        
+        header {
+            background: #ffffff;
+            border-bottom: 2px solid #002f5c;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 20px rgba(0, 47, 92, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .logo {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #002f5c;
+            text-decoration: none;
+        }
+
+        .mobile-menu-toggle {
+            display: none;
+            flex-direction: column;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 0.5rem;
+            z-index: 1001;
+        }
+
+        .mobile-menu-toggle span {
+            width: 25px;
+            height: 3px;
+            background: #002f5c;
+            margin: 3px 0;
+            transition: all 0.3s ease;
+            border-radius: 2px;
+        }
+
+        .mobile-menu-toggle.active span:nth-child(1) {
+            transform: rotate(45deg) translate(5px, 5px);
+        }
+
+        .mobile-menu-toggle.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .mobile-menu-toggle.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(7px, -6px);
+        }
+
+        .nav-menu ul {
+            display: flex;
+            list-style: none;
+            gap: 2.5rem;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav a {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            color: #0057a6;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            position: relative;
+            padding: 0.5rem 0;
+        }
+
+        nav a:hover {
+            color: #002f5c;
+        }
+
+        nav a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: #002f5c;
+            transition: width 0.3s ease;
+        }
+
+        nav a:hover::after {
+            width: 100%;
+        }
+
+        
+        main {
+            margin-top: 80px;
+        }
+
+        
+        .hero {
+            background: linear-gradient(135deg, #002f5c 0%, #0057a6 50%, #ffffff 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="luxury-pattern" width="50" height="50" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="12.5" cy="12.5" r="0.5" fill="rgba(255,255,255,0.05)"/><circle cx="37.5" cy="37.5" r="0.5" fill="rgba(255,255,255,0.05)"/></pattern></defs><rect width="100" height="100" fill="url(%23luxury-pattern)"/></svg>');
+            opacity: 0.3;
+            animation: float 30s infinite linear;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+            width: 100%;
+        }
+
+        .product-name {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-size: clamp(0.9rem, 2vw, 1.2rem);
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.9);
+            text-transform: uppercase;
+            letter-spacing: clamp(1.5px, 0.5vw, 3px);
+            margin-bottom: 1rem;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .hero h1 {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-size: clamp(2.2rem, 5vw, 4.5rem);
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+            animation: fadeInUp 1s ease-out 0.2s both;
+        }
+
+        .hero .subtitle {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-size: clamp(1rem, 2.5vw, 1.4rem);
+            font-weight: 300;
+            color: rgba(255, 255, 255, 0.95);
+            margin-bottom: 3rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.6;
+            animation: fadeInUp 1s ease-out 0.4s both;
+        }
+
+        .hero .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #ffffff 0%, rgba(255, 255, 255, 0.95) 100%);
+            color: #002f5c;
+            padding: 20px 40px;
+            text-decoration: none;
+            border-radius: 60px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-weight: 600;
+            font-size: 1.2rem;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2), 0 4px 15px rgba(255, 255, 255, 0.1);
+            animation: fadeInUp 1s ease-out 0.6s both;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            overflow: hidden;
+            backdrop-filter: blur(10px);
+        }
+
+        .hero .cta-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+            transition: left 0.6s ease;
+        }
+
+        .hero .cta-button:hover {
+            transform: translateY(-5px) scale(1.05);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3), 0 8px 25px rgba(255, 255, 255, 0.2);
+            background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+            border-color: rgba(255, 255, 255, 0.6);
+        }
+
+        .hero .cta-button:hover::before {
+            left: 100%;
+        }
+
+        .hero .cta-button:active {
+            transform: translateY(-2px) scale(1.02);
+        }
+
+        
+        .benefits {
+            padding: 100px 0;
+            background: #f8f9fa;
+        }
+
+        .benefits h2 {
+            text-align: center;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-size: 2.8rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: #002f5c;
+            line-height: 1.2;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-size: 1.2rem;
+            font-weight: 400;
+            color: #0057a6;
+            margin-bottom: 4rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.6;
+        }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2.5rem;
+            margin-top: 4rem;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0 20px;
+        }
+
+        .benefit-card {
+            background: #ffffff;
+            padding: 2.5rem;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 8px 30px rgba(0, 47, 92, 0.08);
+            transition: all 0.3s ease;
+            border: 1px solid rgba(0, 87, 166, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .benefit-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(135deg, #002f5c 0%, #0057a6 100%);
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+
+        .benefit-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 40px rgba(0, 47, 92, 0.15);
+        }
+
+        .benefit-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .benefit-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: #0057a6;
+        }
+
+        .benefit-card h3 {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #002f5c;
+        }
+
+        .benefit-card p {
+            color: #0057a6;
+            line-height: 1.7;
+        }
+
+        
+        .science {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .science h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: #2c3e50;
+        }
+
+        .science-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .science-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .science-visual {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            height: 300px;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.2rem;
+            text-align: center;
+        }
+
+        
+        .cta {
+            padding: 80px 0;
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            text-align: center;
+        }
+
+        .cta h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .cta p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        .cta-form {
+            max-width: 500px;
+            margin: 0 auto;
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .cta-form input {
+            flex: 1;
+            min-width: 250px;
+            padding: 15px;
+            border: none;
+            border-radius: 25px;
+            font-size: 1rem;
+        }
+
+        .cta-form button {
+            background: #e74c3c;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .cta-form button:hover {
+            background: #c0392b;
+            transform: translateY(-2px);
+        }
+
+        
+        .science {
+            background: #ffffff;
+            padding: 100px 0;
+        }
+
+        .science h2 {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-size: 2.8rem;
+            font-weight: 700;
+            text-align: center;
+            color: #002f5c;
+            margin-bottom: 1rem;
+        }
+
+        
+        .cta {
+            background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+            padding: 100px 0;
+            text-align: center;
+            border-top: 1px solid rgba(0, 47, 92, 0.1);
+        }
+
+        .cta h2 {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-size: 2.8rem;
+            font-weight: 700;
+            color: #002f5c;
+            margin-bottom: 1rem;
+        }
+
+        .cta p {
+            font-size: 1.2rem;
+            color: #0057a6;
+            margin-bottom: 2.5rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        
+        footer {
+            background: #002f5c;
+            color: #ffffff;
+            text-align: center;
+            padding: 3rem 0;
+            border-top: 4px solid #0057a6;
+        }
+
+        footer p {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            color: rgba(255, 255, 255, 0.8);
+            margin: 0;
+        }
+
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes float {
+            from {
+                transform: translateX(-100px);
+            }
+            to {
+                transform: translateX(calc(100vw + 100px));
+            }
+        }
+
+        
+        .advantage {
+            padding: 6rem 0;
+            background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+            position: relative;
+        }
+        
+        .advantage::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23e8f4f8' fill-opacity='0.3'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            opacity: 0.5;
+        }
+        
+        .advantage-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .advantage-text h2 {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-size: 2.8rem;
+            font-weight: 700;
+            color: #002f5c;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+        }
+        
+        .advantage-subtitle {
+            font-size: 1.3rem;
+            color: #0057a6;
+            margin-bottom: 2rem;
+            font-weight: 300;
+            line-height: 1.4;
+        }
+        
+        .key-benefit {
+            background: linear-gradient(135deg, #e8f4f8 0%, #ffffff 100%);
+            padding: 2rem;
+            border-radius: 12px;
+            border-left: 4px solid #002f5c;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 20px rgba(0, 47, 92, 0.1);
+        }
+        
+        .key-benefit p {
+            font-size: 1.1rem;
+            color: #0057a6;
+            margin: 0;
+            line-height: 1.6;
+        }
+        
+        .key-benefit strong {
+            color: #002f5c;
+            font-weight: 700;
+        }
+        
+        .citation {
+            opacity: 0.8;
+        }
+        
+        .citation p {
+            font-size: 0.9rem;
+            color: #0057a6;
+            margin: 0;
+        }
+        
+        
+        .chart-container {
+            background: #ffffff;
+            padding: 2.5rem;
+            border-radius: 16px;
+            box-shadow: 0 8px 32px rgba(0, 47, 92, 0.15);
+            border: 1px solid #e2e8f0;
+        }
+        
+        .chart-container h3 {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #002f5c;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        
+        .chart {
+            position: relative;
+        }
+        
+        .bar-group {
+            display: flex;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .bar {
+            flex: 1;
+            position: relative;
+        }
+        
+        .bar-fill {
+            height: 200px;
+            border-radius: 8px 8px 0 0;
+            position: relative;
+            transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+            animation: barGrow 1.5s ease-out 0.5s both;
+        }
+        
+        .baseline .bar-fill {
+            background: linear-gradient(180deg, #cbd5e0 0%, #a0aec0 100%);
+            height: 120px;
+        }
+        
+        .enhanced .bar-fill {
+            background: linear-gradient(180deg, #002f5c 0%, #0057a6 100%);
+            height: 200px;
+            box-shadow: 0 4px 20px rgba(0, 47, 92, 0.3);
+        }
+        
+        .bar-label {
+            text-align: center;
+            margin-top: 1rem;
+        }
+        
+        .percentage {
+            display: block;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #002f5c;
+            margin-bottom: 0.5rem;
+        }
+        
+        .description {
+            display: block;
+            font-size: 0.9rem;
+            color: #0057a6;
+            font-weight: 500;
+        }
+        
+        .advantage-indicator {
+            text-align: center;
+            margin-top: 1.5rem;
+            padding: 1rem;
+            background: linear-gradient(135deg, #002f5c 0%, #0057a6 100%);
+            border-radius: 8px;
+            color: white;
+        }
+        
+        .advantage-indicator .advantage-text {
+            font-size: 1.2rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        @keyframes barGrow {
+             from {
+                 transform: scaleY(0);
+                 transform-origin: bottom;
+             }
+             to {
+                 transform: scaleY(1);
+                 transform-origin: bottom;
+             }
+         }
+
+         
+         .features {
+             padding: 6rem 0;
+             background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+             position: relative;
+         }
+         
+         .features::before {
+             content: '';
+             position: absolute;
+             top: 0;
+             left: 0;
+             right: 0;
+             bottom: 0;
+             background: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23002f5c' fill-opacity='0.02'%3E%3Cpath d='M20 20c0-5.5-4.5-10-10-10s-10 4.5-10 10 4.5 10 10 10 10-4.5 10-10zm10 0c0-5.5-4.5-10-10-10s-10 4.5-10 10 4.5 10 10 10 10-4.5 10-10z'/%3E%3C/g%3E%3C/svg%3E");
+             opacity: 0.6;
+         }
+         
+         .features .container {
+             position: relative;
+             z-index: 1;
+         }
+         
+         .features h2 {
+             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+             font-size: 3rem;
+             font-weight: 700;
+             color: #002f5c;
+             text-align: center;
+             margin-bottom: 3rem;
+             line-height: 1.2;
+         }
+         
+         .features-grid {
+             display: grid;
+             grid-template-columns: repeat(3, 1fr);
+             gap: 2.5rem;
+             margin-bottom: 4rem;
+         }
+         
+         .feature-card {
+             background: #ffffff;
+             padding: 2.5rem 2rem;
+             border-radius: 16px;
+             text-align: center;
+             box-shadow: 0 8px 32px rgba(0, 47, 92, 0.1);
+             border: 1px solid #e2e8f0;
+             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+             position: relative;
+             overflow: hidden;
+         }
+         
+         .feature-card::before {
+             content: '';
+             position: absolute;
+             top: 0;
+             left: 0;
+             right: 0;
+             height: 4px;
+             background: linear-gradient(90deg, #002f5c 0%, #0057a6 100%);
+             transform: scaleX(0);
+             transition: transform 0.3s ease;
+         }
+         
+         .feature-card:hover {
+             transform: translateY(-8px);
+             box-shadow: 0 16px 48px rgba(0, 47, 92, 0.2);
+         }
+         
+         .feature-card:hover::before {
+             transform: scaleX(1);
+         }
+         
+         .feature-icon {
+             margin-bottom: 1.5rem;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+         }
+         
+         .feature-icon svg {
+             transition: transform 0.3s ease;
+         }
+         
+         .feature-card:hover .feature-icon svg {
+             transform: scale(1.1);
+         }
+         
+         .feature-card h3 {
+             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+             font-size: 1.4rem;
+             font-weight: 600;
+             color: #002f5c;
+             margin-bottom: 1rem;
+             line-height: 1.3;
+         }
+         
+         .feature-card p {
+             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+             font-size: 1rem;
+             color: #0057a6;
+             line-height: 1.6;
+             margin: 0;
+         }
+         
+         .product-description {
+             text-align: center;
+             max-width: 600px;
+             margin: 0 auto;
+             padding: 2rem;
+             background: linear-gradient(135deg, #e8f4f8 0%, #ffffff 100%);
+             border-radius: 12px;
+             border-left: 4px solid #002f5c;
+             box-shadow: 0 4px 20px rgba(0, 47, 92, 0.1);
+         }
+         
+         .product-description p {
+             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+             font-size: 1.1rem;
+             color: #0057a6;
+             line-height: 1.6;
+             margin: 0;
+             font-weight: 400;
+         }
+
+        
+        @media (max-width: 1200px) {
+            .hero h1 {
+                font-size: 4rem;
+            }
+            
+            .hero .subtitle {
+                font-size: 1.3rem;
+            }
+            
+            .product-name {
+                font-size: 1.1rem;
+                letter-spacing: 2px;
+            }
+        }
+
+        
+        @media (max-width: 1024px) {
+            .container {
+                padding: 0 30px;
+            }
+            
+            .hero h1 {
+                font-size: 4.2rem;
+            }
+            
+            .hero .subtitle {
+                font-size: 1.4rem;
+            }
+            
+            .benefits-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 2.5rem;
+            }
+            
+            .features-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 2rem;
+            }
+            
+            .advantage-content {
+                grid-template-columns: 1fr;
+                gap: 3rem;
+            }
+            
+            .cta-buttons {
+                gap: 1.2rem;
+            }
+            
+            .cta-btn {
+                min-width: 170px;
+                padding: 17px 34px;
+                font-size: 1.05rem;
+            }
+        }
+
+        
+        @media (max-width: 992px) {
+            .container {
+                padding: 0 25px;
+            }
+            
+            .hero h1 {
+                font-size: 3.5rem;
+            }
+            
+            .hero .subtitle {
+                font-size: 1.2rem;
+            }
+            
+            .hero .cta-button {
+                padding: 18px 36px;
+                font-size: 1.1rem;
+            }
+            
+            .benefits-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 2rem;
+            }
+            
+            .features-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .feature-card {
+                max-width: 500px;
+                margin: 0 auto;
+            }
+            
+            .section-title {
+                font-size: 2.5rem;
+            }
+            
+            .section-subtitle {
+                font-size: 1.15rem;
+            }
+            
+            .brand-info {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+                text-align: center;
+            }
+            
+            .cta-btn {
+                min-width: 160px;
+                padding: 16px 30px;
+                font-size: 1rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 15px;
+            }
+
+            .hero {
+                min-height: 100vh;
+                padding: 0 15px;
+            }
+
+            .hero h1 {
+                font-size: 2.8rem;
+                margin-bottom: 1rem;
+            }
+            
+            .hero .subtitle {
+                font-size: 1.1rem;
+                margin-bottom: 2.5rem;
+            }
+
+            .product-name {
+                font-size: 1rem;
+                letter-spacing: 2px;
+                margin-bottom: 0.8rem;
+            }
+
+            .hero .cta-button {
+                padding: 18px 36px;
+                font-size: 1.1rem;
+                letter-spacing: 0.8px;
+                min-height: 56px;
+                min-width: 200px;
+            }
+            
+            .hero-product-showcase img {
+                max-width: 250px !important;
+            }
+            
+            .benefits-infographics {
+                grid-template-columns: 1fr !important;
+                gap: 2rem !important;
+            }
+            
+            .section-title {
+                font-size: 2.2rem;
+                line-height: 1.3;
+            }
+
+            .section-subtitle {
+                font-size: 1.1rem;
+                margin-bottom: 3rem;
+                line-height: 1.6;
+            }
+            
+            .benefits-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+                padding: 0 15px;
+            }
+
+            .benefit-card {
+                padding: 2rem;
+            }
+            
+            .features-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .feature-card {
+                padding: 2rem;
+                text-align: center;
+            }
+            
+            .feature-card h3 {
+                font-size: 1.4rem;
+                line-height: 1.4;
+            }
+            
+            .feature-card p {
+                font-size: 1rem;
+                line-height: 1.6;
+            }
+            
+            .mobile-menu-toggle {
+                display: flex;
+            }
+            
+            .nav-menu {
+                position: fixed;
+                top: 80px;
+                left: -100%;
+                width: 100%;
+                height: calc(100vh - 80px);
+                background: #ffffff;
+                transition: left 0.3s ease;
+                z-index: 999;
+                box-shadow: 0 2px 20px rgba(0, 47, 92, 0.1);
+            }
+            
+            .nav-menu.active {
+                left: 0;
+            }
+            
+            .nav-menu ul {
+                flex-direction: column;
+                gap: 2rem;
+                text-align: center;
+                padding: 2rem 0;
+                height: 100%;
+                justify-content: flex-start;
+            }
+            
+            .nav-menu a {
+                font-size: 1.2rem;
+                padding: 1rem 0;
+                display: block;
+                width: 100%;
+            }
+            
+            .header-content {
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .logo {
+                font-size: 1.5rem;
+            }
+
+            section {
+                padding: 60px 0;
+            }
+
+            .cta-button {
+                padding: 18px 36px;
+                font-size: 1.1rem;
+                min-height: 56px;
+                min-width: 180px;
+            }
+            
+            .cta-btn {
+                padding: 18px 36px;
+                font-size: 1.1rem;
+                min-height: 56px;
+                min-width: 180px;
+            }
+
+            .science-content {
+                grid-template-columns: 1fr;
+            }
+            
+            .cta-form {
+                flex-direction: column;
+                align-items: center;
+                gap: 1.5rem;
+            }
+            
+            .cta-form input {
+                min-width: 100%;
+                min-height: 56px;
+                padding: 16px 20px;
+                font-size: 1rem;
+            }
+            
+            .cta-form button {
+                min-height: 56px;
+                padding: 18px 36px;
+                font-size: 1.1rem;
+                min-width: 200px;
+            }
+            
+            .advantage {
+                padding: 4rem 0;
+            }
+            
+            .advantage-content {
+                grid-template-columns: 1fr;
+                gap: 3rem;
+            }
+            
+            .advantage-text h2 {
+                font-size: 2.2rem;
+            }
+            
+            .advantage-subtitle {
+                font-size: 1.1rem;
+            }
+            
+            .chart-container {
+                padding: 2rem;
+            }
+            
+            .bar-group {
+                 gap: 1.5rem;
+             }
+             
+             .features {
+                 padding: 4rem 0;
+             }
+             
+             .features h2 {
+                 font-size: 2.4rem;
+             }
+             
+             .features-grid {
+                 grid-template-columns: 1fr;
+                 gap: 2rem;
+                 margin-bottom: 3rem;
+             }
+             
+             .feature-card {
+                 padding: 2rem 1.5rem;
+             }
+             
+             .product-description {
+                 padding: 1.5rem;
+                 margin: 0 1rem;
+             }
+         }
+         
+         @media (max-width: 992px) {
+             .features-grid {
+                 grid-template-columns: 1fr;
+                 gap: 2rem;
+             }
+             
+             .features h2 {
+                 font-size: 2.6rem;
+             }
+         }
+         
+         
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 10px;
+            }
+            
+            .hero h1 {
+                font-size: 2.2rem;
+                line-height: 1.3;
+            }
+
+            .hero .subtitle {
+                font-size: 1rem;
+                margin-bottom: 2rem;
+                line-height: 1.6;
+            }
+
+            .product-name {
+                font-size: 0.9rem;
+                letter-spacing: 1.5px;
+            }
+
+            .hero .cta-button {
+                padding: 16px 32px;
+                font-size: 1rem;
+                letter-spacing: 0.5px;
+                min-height: 56px;
+                min-width: 160px;
+            }
+
+            .section-title {
+                font-size: 1.8rem;
+                line-height: 1.3;
+            }
+            
+            .section-subtitle {
+                font-size: 1rem;
+                line-height: 1.6;
+            }
+
+            .benefit-card {
+                padding: 1.5rem;
+            }
+            
+            .benefit-card h3 {
+                font-size: 1.3rem;
+                line-height: 1.4;
+            }
+            
+            .benefit-card p {
+                font-size: 0.95rem;
+                line-height: 1.6;
+            }
+
+            .benefits-grid {
+                gap: 1.5rem;
+            }
+            
+            .advantage-text h2 {
+                font-size: 1.8rem;
+                line-height: 1.3;
+            }
+            
+            .advantage-subtitle {
+                font-size: 1rem;
+                line-height: 1.6;
+            }
+            
+            .key-benefit {
+                padding: 1.5rem;
+            }
+            
+            .chart-container {
+                padding: 1.5rem;
+            }
+            
+            .chart-container h3 {
+                font-size: 1.2rem;
+                line-height: 1.4;
+            }
+            
+            .bar-group {
+                gap: 1rem;
+            }
+            
+            .percentage {
+                font-size: 1.2rem;
+            }
+            
+            .description {
+                font-size: 0.9rem;
+                line-height: 1.5;
+            }
+            
+            .cta-button, .cta-btn {
+                padding: 16px 32px;
+                font-size: 1rem;
+                min-height: 56px;
+                min-width: 160px;
+            }
+            
+            .cta-form input {
+                min-height: 56px;
+                padding: 16px 20px;
+                font-size: 1rem;
+            }
+            
+            .cta-form button {
+                min-height: 56px;
+                padding: 16px 32px;
+                font-size: 1rem;
+                min-width: 180px;
+             }
+             
+             .features h2 {
+                 font-size: 2rem;
+             }
+             
+             .feature-card {
+                 padding: 1.5rem 1rem;
+             }
+             
+             .feature-card h3 {
+                 font-size: 1.2rem;
+             }
+             
+             .feature-card p {
+                 font-size: 0.9rem;
+             }
+             
+             .product-description {
+                 padding: 1.2rem;
+                 margin: 0 0.5rem;
+             }
+             
+             .product-description p {
+                 font-size: 1rem;
+             }
+         }
+
+        
+        .cta-footer {
+            background: #002f5c;
+            color: #ffffff;
+            padding: 80px 0 40px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-footer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, #002f5c 0%, #0057a6 100%);
+            opacity: 0.9;
+            z-index: 1;
+        }
+
+        .cta-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .cta-headline h2 {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-size: 3.2rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: #ffffff;
+            line-height: 1.2;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .cta-subtitle {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-size: 1.3rem;
+            font-weight: 400;
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 3rem;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.6;
+        }
+
+        .cta-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-bottom: 4rem;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            padding: 18px 36px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            position: relative;
+            overflow: hidden;
+            min-width: 180px;
+            text-align: center;
+        }
+
+        .cta-btn.primary {
+            background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+            color: #ffffff;
+            box-shadow: 0 8px 25px rgba(255, 107, 53, 0.4);
+        }
+
+        .cta-btn.primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 35px rgba(255, 107, 53, 0.6);
+        }
+
+        .cta-btn.secondary {
+            background: transparent;
+            color: #ffffff;
+            border: 2px solid #ffffff;
+        }
+
+        .cta-btn.secondary:hover {
+            background: #ffffff;
+            color: #002f5c;
+            transform: translateY(-2px);
+        }
+
+        .cta-btn.tertiary {
+            background: linear-gradient(135deg, #0057a6 0%, #007acc 100%);
+            color: #ffffff;
+            box-shadow: 0 8px 25px rgba(0, 87, 166, 0.4);
+        }
+
+        .cta-btn.tertiary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 35px rgba(0, 87, 166, 0.6);
+        }
+
+        .cta-btn.quaternary {
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            color: #ffffff;
+            box-shadow: 0 8px 25px rgba(40, 167, 69, 0.4);
+        }
+
+        .cta-btn.quaternary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 35px rgba(40, 167, 69, 0.6);
+        }
+
+        .brand-info {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 4rem;
+            margin-bottom: 3rem;
+            text-align: left;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .brand-tagline h3 {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-size: 2rem;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 0.5rem;
+        }
+
+        .brand-tagline p {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.8);
+            font-style: italic;
+        }
+
+        .contact-info {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .contact-label {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.9);
+            min-width: 80px;
+        }
+
+        .contact-value {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            color: #ffffff;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            padding-top: 2rem;
+            text-align: center;
+        }
+
+        .footer-bottom p {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 0.5rem;
+        }
+
+        .disclaimer {
+            font-size: 0.8rem !important;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.6) !important;
+        }
+
+        
+        @media (max-width: 992px) {
+            .cta-headline h2 {
+                font-size: 2.8rem;
+            }
+            
+            .cta-subtitle {
+                font-size: 1.2rem;
+            }
+            
+            .brand-info {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+                text-align: center;
+            }
+            
+            .cta-buttons {
+                gap: 1rem;
+            }
+            
+            .cta-btn {
+                min-width: 160px;
+                padding: 16px 30px;
+                font-size: 1rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .cta-footer {
+                padding: 60px 0 30px;
+            }
+            
+            .cta-headline h2 {
+                font-size: 2.2rem;
+                margin-bottom: 1rem;
+            }
+            
+            .cta-subtitle {
+                font-size: 1.1rem;
+                margin-bottom: 2rem;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+                gap: 1rem;
+                margin-bottom: 3rem;
+            }
+            
+            .cta-btn {
+                width: 100%;
+                max-width: 280px;
+                padding: 16px 24px;
+                font-size: 1rem;
+            }
+            
+            .brand-info {
+                gap: 1.5rem;
+                margin-bottom: 2rem;
+            }
+            
+            .brand-tagline h3 {
+                font-size: 1.6rem;
+            }
+            
+            .contact-item {
+                flex-direction: column;
+                gap: 0.3rem;
+                text-align: center;
+            }
+            
+            .contact-label {
+                min-width: auto;
+                font-size: 0.9rem;
+            }
+            
+            .contact-value {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="assets/images/Slide 4 Logo 1.png" alt="CellStart Logo" style="height: 40px; width: auto;">
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <nav class="nav-menu">
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#benefits">Benefits</a></li>
+                        <li><a href="#science">Science</a></li>
+                        <li><a href="#cta">Order Now</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-branding">
+                        <img src="assets/images/Slide 4 Logo 2.png" alt="CellStart Secondary Logo" style="height: 60px; margin-bottom: 1rem;">
+                    </div>
+                    <div class="product-name">ChronoNAD+</div>
+                    <h1 class="marketing-header">Unlock Your Potential</h1>
+                    <p class="subtitle">The key to a more vibrant you lies in your cells</p>
+                    <div class="hero-product-showcase">
+                        <img src="assets/images/Slide 4 Product.png" alt="ChronoNAD+ Product" style="max-width: 300px; height: auto; margin: 2rem 0;">
+                    </div>
+                    <a href="#cta" class="cta-button">Shop Now</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="advantage" class="advantage">
+            <div class="container">
+                <div class="advantage-content">
+                    <div class="advantage-text">
+                        <h2>Why Is NAD+ Your Cellular Fuel?</h2>
+                        <p class="advantage-subtitle">Restore your cellular energy and vitality</p>
+                        <div class="key-benefit">
+                            <p>Research shows that combining NAD+ with Resveratrol can boost NAD+ levels up to <strong>1.7x higher</strong></p>
+                        </div>
+                        <div class="citation">
+                            <p><em>Source: Jiang et al., Pharmacology Research & Perspectives, 2022</em></p>
+                        </div>
+                    </div>
+                    <div class="advantage-visual">
+                        <div class="infographic-container">
+                            <img src="assets/images/Slide 6 Infographic 2.png" alt="NAD+ Benefits Infographic" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 20px rgba(0, 47, 92, 0.1);">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="science-infographic" class="advantage">
+            <div class="container">
+                <div class="advantage-content">
+                    <div class="advantage-text">
+                        <h2>The Science Behind Cellular Energy</h2>
+                        <p class="advantage-subtitle">Understanding how NAD+ powers your cells</p>
+                        <div class="key-benefit">
+                            <p>Discover the molecular mechanisms that make NAD+ essential for <strong>optimal cellular function</strong></p>
+                        </div>
+                    </div>
+                    <div class="advantage-visual">
+                        <div class="infographic-container">
+                            <img src="assets/images/Slide 7 Infographic 1.png" alt="Cellular Energy Science Infographic" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 20px rgba(0, 47, 92, 0.1);">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <h2>How They Work Together</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="DNA helix representing longevity gene activation">
+                                <circle cx="32" cy="32" r="30" fill="url(#dnaGradient)" stroke="#002f5c" stroke-width="2"/>
+                                <path d="M20 16 C28 24, 36 24, 44 16 M20 32 C28 24, 36 24, 44 32 M20 48 C28 40, 36 40, 44 48" stroke="#ffffff" stroke-width="3" fill="none"/>
+                                <circle cx="20" cy="16" r="3" fill="#ffffff"/>
+                                <circle cx="44" cy="16" r="3" fill="#ffffff"/>
+                                <circle cx="20" cy="32" r="3" fill="#ffffff"/>
+                                <circle cx="44" cy="32" r="3" fill="#ffffff"/>
+                                <circle cx="20" cy="48" r="3" fill="#ffffff"/>
+                                <circle cx="44" cy="48" r="3" fill="#ffffff"/>
+                                <defs>
+                                    <linearGradient id="dnaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#002f5c"/>
+                                        <stop offset="100%" style="stop-color:#0057a6"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <h3>Activates 'Longevity' Genes</h3>
+                        <p>Stimulates sirtuins, the proteins responsible for cellular repair and longevity pathways in your body.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Lightning bolt representing NAD+ energy boost">
+                                <circle cx="32" cy="32" r="30" fill="url(#energyGradient)" stroke="#002f5c" stroke-width="2"/>
+                                <path d="M32 12 L40 28 L28 28 L36 52 L28 36 L40 36 Z" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+                                <circle cx="32" cy="32" r="20" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.5"/>
+                                <circle cx="32" cy="32" r="12" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.3"/>
+                                <defs>
+                                    <linearGradient id="energyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#002f5c"/>
+                                        <stop offset="100%" style="stop-color:#0057a6"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <h3>Boosts NAD+'s Function</h3>
+                        <p>Enhances the efficiency of NAD+ in cellular energy production and metabolic processes throughout your body.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="32" cy="32" r="30" fill="url(#shieldGradient)" stroke="#002f5c" stroke-width="2"/>
+                                <path d="M32 8 L48 16 L48 32 C48 44, 32 56, 32 56 C32 56, 16 44, 16 32 L16 16 Z" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+                                <path d="M26 28 L30 32 L38 24" stroke="#002f5c" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                                <defs>
+                                    <linearGradient id="shieldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#002f5c"/>
+                                        <stop offset="100%" style="stop-color:#0057a6"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <h3>Enhanced Cellular Health & Defense</h3>
+                        <p>Strengthens your cells' natural defense mechanisms against oxidative stress and age-related damage.</p>
+                    </div>
+                </div>
+                
+                <div class="product-description">
+                    <p>ChronoNAD+ is a dietary supplement taken once a day. As we age, our NAD+ levels decline, impacting our cellular health and energy.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="benefits" class="benefits">
+            <div class="container">
+                <h2>Why Choose ChronoNAD+?</h2>
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">⚡</div>
+                        <h3>Enhanced Energy</h3>
+                        <p>Boost cellular ATP production and experience sustained energy throughout your day without crashes or jitters.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">🧬</div>
+                        <h3>DNA Repair</h3>
+                        <p>Support your body's natural DNA repair mechanisms and promote cellular health at the genetic level.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">🛡️</div>
+                        <h3>Anti-Aging</h3>
+                        <p>Combat the effects of aging by supporting mitochondrial function and cellular regeneration processes.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">🧠</div>
+                        <h3>Cognitive Support</h3>
+                        <p>Enhance mental clarity, focus, and cognitive performance with optimized brain cell energy metabolism.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">💪</div>
+                        <h3>Physical Performance</h3>
+                        <p>Improve exercise capacity, muscle recovery, and overall physical performance through enhanced cellular energy.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">❤️</div>
+                        <h3>Heart Health</h3>
+                        <p>Support cardiovascular health by optimizing heart muscle energy production and circulation.</p>
+                    </div>
+                </div>
+                
+                <div class="benefits-infographics" style="margin-top: 4rem; display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center;">
+                    <div class="infographic-item">
+                        <h3 style="text-align: center; margin-bottom: 1.5rem; color: #002f5c;">Cellular Energy Process</h3>
+                        <img src="assets/images/Slide 8 Infographic 1.gif" alt="Cellular Energy Process Animation" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 20px rgba(0, 47, 92, 0.1);">
+                    </div>
+                    <div class="infographic-item">
+                        <h3 style="text-align: center; margin-bottom: 1.5rem; color: #002f5c;">NAD+ Regeneration Cycle</h3>
+                        <img src="assets/images/Slide 8 Infographic 2.gif" alt="NAD+ Regeneration Cycle Animation" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 20px rgba(0, 47, 92, 0.1);">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="science" class="science">
+            <div class="container">
+                <h2>The Science Behind ChronoNAD+</h2>
+                <div class="science-content">
+                    <div class="science-text">
+                        <p>NAD+ (Nicotinamide Adenine Dinucleotide) is a crucial coenzyme found in every cell of your body. It plays a vital role in energy metabolism, DNA repair, and cellular communication. As we age, NAD+ levels naturally decline, leading to decreased cellular function and the visible signs of aging.</p>
+                        
+                        <p>ChronoNAD+ is formulated with clinically-studied precursors that help restore optimal NAD+ levels in your cells. Our advanced delivery system ensures maximum bioavailability and cellular uptake, giving you the most effective NAD+ supplementation available.</p>
+                        
+                        <p>Backed by over 100 peer-reviewed studies, NAD+ supplementation has shown remarkable benefits for cellular health, longevity, and overall vitality.</p>
+                    </div>
+                    <div class="science-visual">
+                        <div>
+                            <h3>Clinical Studies Show:</h3>
+                            <ul style="text-align: left; margin-top: 1rem;">
+                                <li>↑ 40% increase in cellular energy</li>
+                                <li>↑ 60% improvement in DNA repair</li>
+                                <li>↑ 35% boost in cognitive function</li>
+                                <li>↑ 50% enhanced physical performance</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta" class="cta">
+            <div class="container">
+                <h2 class="marketing-header">Transform Your Health Today</h2>
+                <p>Join thousands of satisfied customers who have experienced the life-changing benefits of ChronoNAD+</p>
+                <div class="cta-form">
+                    <input type="email" placeholder="Enter your email address" id="email-input">
+                    <button type="button" onclick="handleOrder()">Order Now - $89</button>
+                </div>
+                <p style="margin-top: 1rem; font-size: 0.9rem; opacity: 0.8;">
+                    ✓ 60-Day Money-Back Guarantee &nbsp;&nbsp; ✓ Free Shipping &nbsp;&nbsp; ✓ Third-Party Tested
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 CellStart. All rights reserved. | <a href="#" style="color: #e74c3c;">Privacy Policy</a> | <a href="#" style="color: #e74c3c;">Terms of Service</a></p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.addEventListener('DOMContentLoaded', function() {
+            const navLinks = document.querySelectorAll('nav a[href^="#"]');
+            
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href');
+                    const targetSection = document.querySelector(targetId);
+                    
+                    if (targetSection) {
+                        const offsetTop = targetSection.offsetTop - 80;
+                        
+                        window.scrollTo({
+                            top: offsetTop,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+
+            // CTA button smooth scroll
+            const ctaButton = document.querySelector('.hero .cta-button');
+            if (ctaButton) {
+                ctaButton.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const ctaSection = document.querySelector('#cta');
+                    if (ctaSection) {
+                        const offsetTop = ctaSection.offsetTop - 80;
+                        window.scrollTo({
+                            top: offsetTop,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            }
+
+            // Scroll animations for benefit cards
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, observerOptions);
+
+            // Observe benefit cards for animation
+            const benefitCards = document.querySelectorAll('.benefit-card');
+            benefitCards.forEach((card, index) => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(20px)';
+                card.style.transition = `opacity 0.6s ease ${index * 0.1}s, transform 0.6s ease ${index * 0.1}s`;
+                observer.observe(card);
+            });
+
+            // Header background change on scroll
+            window.addEventListener('scroll', function() {
+                const header = document.querySelector('header');
+                
+              
+                
+            });
+        });
+
+        // Mobile menu toggle functionality
+        const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+        
+        if (mobileMenuToggle && navMenu) {
+            mobileMenuToggle.addEventListener('click', function() {
+                mobileMenuToggle.classList.toggle('active');
+                navMenu.classList.toggle('active');
+                
+                // Prevent body scroll when menu is open
+                if (navMenu.classList.contains('active')) {
+                    document.body.style.overflow = 'hidden';
+                } else {
+                    document.body.style.overflow = '';
+                }
+            });
+            
+            // Close menu when clicking on nav links
+            const navLinks = document.querySelectorAll('.nav-menu a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    mobileMenuToggle.classList.remove('active');
+                    navMenu.classList.remove('active');
+                    document.body.style.overflow = '';
+                });
+            });
+            
+            // Close menu when clicking outside
+            document.addEventListener('click', function(e) {
+                if (!mobileMenuToggle.contains(e.target) && !navMenu.contains(e.target)) {
+                    mobileMenuToggle.classList.remove('active');
+                    navMenu.classList.remove('active');
+                    document.body.style.overflow = '';
+                }
+            });
+        }
+
+        // Order handling function
+        function handleOrder() {
+            const emailInput = document.getElementById('email-input');
+            const email = emailInput.value.trim();
+            
+            if (!email) {
+                showNotification('Please enter your email address', 'error');
+                return;
+            }
+            
+            if (!validateEmail(email)) {
+                showNotification('Please enter a valid email address', 'error');
+                return;
+            }
+            
+            // Simulate order process
+            showNotification('Redirecting to secure checkout...', 'success');
+            
+            // In a real application, you would redirect to a payment processor
+            setTimeout(() => {
+                alert(`Thank you for your interest! You would be redirected to checkout for ${email}`);
+            }, 1500);
+        }
+
+        // Email validation
+        function validateEmail(email) {
+            const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return re.test(email);
+        }
+
+        // Notification system
+        function showNotification(message, type = 'info') {
+            const notification = document.createElement('div');
+            notification.textContent = message;
+            
+            notification.style.cssText = `
+                position: fixed;
+                top: 100px;
+                right: 20px;
+                padding: 15px 20px;
+                background: ${type === 'success' ? '#27ae60' : type === 'error' ? '#e74c3c' : '#3498db'};
+                color: white;
+                border-radius: 5px;
+                z-index: 10000;
+                opacity: 0;
+                transform: translateX(100%);
+                transition: all 0.3s ease;
+                box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            `;
+            
+            document.body.appendChild(notification);
+            
+            setTimeout(() => {
+                notification.style.opacity = '1';
+                notification.style.transform = 'translateX(0)';
+            }, 100);
+            
+            setTimeout(() => {
+                notification.style.opacity = '0';
+                notification.style.transform = 'translateX(100%)';
+                setTimeout(() => {
+                    if (document.body.contains(notification)) {
+                        document.body.removeChild(notification);
+                    }
+                }, 300);
+            }, 3000);
+        }
+
+        // Add some interactive effects
+        document.addEventListener('mousemove', function(e) {
+            const hero = document.querySelector('.hero');
+            if (hero) {
+                const rect = hero.getBoundingClientRect();
+                if (e.clientY >= rect.top && e.clientY <= rect.bottom) {
+                    const x = (e.clientX / window.innerWidth) * 100;
+                    const y = (e.clientY / window.innerHeight) * 100;
+                    hero.style.backgroundPosition = `${x}% ${y}%`;
+                }
+            }
+        });
+    </script>
+
+    <footer id="cta-footer" class="cta-footer">
+        <div class="container">
+            <div class="cta-content">
+                <div class="cta-headline">
+                    <h2>Unlock Your Cellular Potential Today</h2>
+                    <p class="cta-subtitle">Experience the power of enhanced NAD+ levels and feel the difference in your energy, vitality, and overall well-being.</p>
+                </div>
+                
+                <div class="cta-buttons">
+                    <a href="#" class="cta-btn primary">Shop Now</a>
+                    <a href="#" class="cta-btn secondary">Learn More</a>
+                    <a href="#" class="cta-btn tertiary">Discover The Formula</a>
+                    <a href="#" class="cta-btn quaternary">Fuel My Cells</a>
+                </div>
+                
+                <div class="brand-info">
+                    <div class="brand-tagline">
+                        <h3>ChronoNAD+</h3>
+                        <p>Cellular Energy. Redefined.</p>
+                    </div>
+                    
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <span class="contact-label">Support:</span>
+                            <span class="contact-value">support@chrononad.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label">Phone:</span>
+                            <span class="contact-value">1-800-CHRONO</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label">Hours:</span>
+                            <span class="contact-value">Mon-Fri 9AM-6PM EST</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-bottom">
+                    <p>&copy; 2024 ChronoNAD+. All rights reserved. | Privacy Policy | Terms of Service</p>
+                    <p class="disclaimer">*These statements have not been evaluated by the FDA. This product is not intended to diagnose, treat, cure, or prevent any disease.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
