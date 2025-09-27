@@ -1917,21 +1917,23 @@
         .carousel-container {
             position: relative;
             display: flex;
+            /* flex-direction: row; */
             align-items: center;
             gap: 2rem;
         }
 
-        .carousel-wrapper {
+        /* .carousel-wrapper {
             flex: 1;
+            flex-direction: row;
             overflow: hidden;
             border-radius: 20px;
-            box-shadow: 0 10px 40px rgba(0, 47, 92, 0.1);
-        }
+            /* box-shadow: 0 10px 40px rgba(0, 47, 92, 0.1); 
+        } */
 
         .carousel-track {
             display: flex;
             transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-            gap: 2rem;
+            gap: 1rem;
             will-change: transform;
             backface-visibility: hidden;
             -webkit-backface-visibility: hidden;
@@ -1972,7 +1974,7 @@
             .carousel-wrapper {
                 order: 1;
                 border-radius: 16px;
-                box-shadow: 0 8px 25px rgba(0, 47, 92, 0.12);
+                /* box-shadow: 0 8px 25px rgba(0, 47, 92, 0.12); */
             }
 
             .carousel-track {
@@ -2591,7 +2593,7 @@
             }
             
             .carousel-container {
-                flex-direction: column;
+                flex-direction: row;
                 gap: 1.5rem;
             }
             
